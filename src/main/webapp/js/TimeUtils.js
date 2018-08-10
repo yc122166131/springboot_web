@@ -69,7 +69,13 @@ var calculateDate = function(){
 }
 
 
-
+/**
+ * 获取当前时间戳 
+ * @returns
+ */
+function getTimeStamp(){
+	return new Date().getTime();
+}
 
 
 

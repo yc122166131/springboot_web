@@ -1,4 +1,4 @@
-package com.atguigu.springboot;
+package com.moon.springboot;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;

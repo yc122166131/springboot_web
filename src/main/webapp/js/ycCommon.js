@@ -1,7 +1,7 @@
 /**
  * 阻止冒泡
  */
-document.getElementById('btn').addEventListener('click', function (event) {  // JavaScript
+/*document.getElementById('btn').addEventListener('click', function (event) {  // JavaScript
     event = event || window.event;
     if (event.stopPropagation){
         // W3C
@@ -15,14 +15,14 @@ document.getElementById('btn').addEventListener('click', function (event) {  // 
 
 $('#btn').on('click', function (event) {    // jQuery
     event.stopPropagation();
-});
+});*/
 
 
 
 /**
  * 阻止默认行为
  */
-document.getElementById('btn').addEventListener('click', function (event) {   //JavaScript
+/*document.getElementById('btn').addEventListener('click', function (event) {   //JavaScript
     event = event || window.event;
     if (event.preventDefault){
         // W3C
@@ -36,7 +36,20 @@ document.getElementById('btn').addEventListener('click', function (event) {   //
 
 $('#btn').on('click', function (event) {   // jQuery
     event.preventDefault();
-});
+});*/
+
+
+
+/**
+ * 获取[min,max]之间的一个随机数
+ * @param {} min
+ * @param {} max
+ */ 
+function getRandomNum(min,max){
+	var range = max-min;
+	var rand = Math.random();
+	return(min+Math.round(rand*range));
+}
 
 
 

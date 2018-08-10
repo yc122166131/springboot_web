@@ -1,4 +1,4 @@
-package com.atguigu.springboot;
+package com.moon.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
